@@ -1,0 +1,80 @@
+.register-wrapper{
+    position: absolute;
+    top: 50%;
+    right: 30%;
+    background: var(--bg-primary);
+    padding-bottom:10px ;
+    color: var(rgb(15, 13, 13));
+    transform: translate(40%,-50%);
+    border-radius: 20px;
+    /* box-shadow: 10px ,13px,30px,var(rgb(21, 8, 31)); */
+    box-shadow: 5px 10px 8px 10px #f8f9fa;
+
+    width:300px;
+    height: fit-content;
+    padding-bottom: 1rem;
+    /* border: 1px solid blue; */
+}
+.register-header{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+
+    
+
+}
+.hedaar-icon{
+    display: flex;
+    flex-shrink: 0;
+    margin-top: 5px;
+    margin-right:10px ;
+}
+.hedaar-text{
+    display: flex;
+    margin-top: 10px;
+    margin-left:10px ;
+
+}
+.header-msg{
+    margin: 10px;
+}
+.register-sign-up{
+    margin-left: 10px;
+    margin-top: 20px;
+
+}
+.reg-date{
+    height: fit-content;
+    text-align:left ;
+    /* margin-left: 0 auto !important; */
+}
+.login-2{
+    text-align: center;
+    /* background-color: beige;
+    box-shadow: 10px 4px 3px;
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    row-gap: 10px;
+    margin: 0;
+    border-radius: 10px; */
+
+}
+.login_2_wrap{
+    display: flex;
+    flex-direction: column;
+    background-color: var(--bg-primary);
+    box-shadow: 0px 1px 2px var(--shadow-1);
+    align-items: center;
+    gap:1rem;
+    height: fit-content;
+    padding: 2px;
+    padding-bottom: 2px;
+    width: 250px;
+    margin: 0 auto;
+    border-radius: 10px;
+
+
+}

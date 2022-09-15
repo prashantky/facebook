@@ -1,8 +1,10 @@
 import React from 'react'
-
-const ShortCut = () => {
+import './ShortCut.css'
+const ShortCut = ({link,img,name}) => {
   return (
-    <div>ShortCut</div>
-  )
+    <a href={link} target="_blank" rel="noreferrer" className="shortcut_item">
+    <img src={img} alt="" />
+    <span>{name}</span>
+  </a>  )
 }
 export default ShortCut
